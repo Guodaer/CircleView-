@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B88DF5B11C118889009DF1FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5B01C118889009DF1FB /* main.m */; };
+		B88DF5B41C118889009DF1FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5B31C118889009DF1FB /* AppDelegate.m */; };
+		B88DF5B71C118889009DF1FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5B61C118889009DF1FB /* ViewController.m */; };
+		B88DF5BA1C118889009DF1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5B81C118889009DF1FB /* Main.storyboard */; };
+		B88DF5BC1C118889009DF1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5BB1C118889009DF1FB /* Assets.xcassets */; };
+		B88DF5BF1C118889009DF1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5BD1C118889009DF1FB /* LaunchScreen.storyboard */; };
+		B88DF5CA1C11888A009DF1FB /* DYCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5C91C11888A009DF1FB /* DYCircleViewTests.m */; };
+		B88DF5D51C11888A009DF1FB /* DYCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5D41C11888A009DF1FB /* DYCircleViewUITests.m */; };
+		B88DF5E41C1188B2009DF1FB /* DYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5E31C1188B2009DF1FB /* DYImageView.m */; };
+		B88DF5E71C1188D0009DF1FB /* DYCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88DF5E61C1188D0009DF1FB /* DYCircleView.m */; };
+		B88DF5F61C118ACE009DF1FB /* biIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5E81C118ACE009DF1FB /* biIcon.png */; };
+		B88DF5F71C118ACE009DF1FB /* biIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5E91C118ACE009DF1FB /* biIcon@2x.png */; };
+		B88DF5F81C118ACE009DF1FB /* customerInfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5EA1C118ACE009DF1FB /* customerInfoIcon.png */; };
+		B88DF5F91C118ACE009DF1FB /* customerInfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5EB1C118ACE009DF1FB /* customerInfoIcon@2x.png */; };
+		B88DF5FA1C118ACE009DF1FB /* desireIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5EC1C118ACE009DF1FB /* desireIcon.png */; };
+		B88DF5FB1C118ACE009DF1FB /* desireIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5ED1C118ACE009DF1FB /* desireIcon@2x.png */; };
+		B88DF5FC1C118ACE009DF1FB /* myInfoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5EE1C118ACE009DF1FB /* myInfoIcon.png */; };
+		B88DF5FD1C118ACE009DF1FB /* myInfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5EF1C118ACE009DF1FB /* myInfoIcon@2x.png */; };
+		B88DF5FE1C118ACE009DF1FB /* orderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F01C118ACE009DF1FB /* orderIcon.png */; };
+		B88DF5FF1C118ACE009DF1FB /* orderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F11C118ACE009DF1FB /* orderIcon@2x.png */; };
+		B88DF6001C118ACE009DF1FB /* priceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F21C118ACE009DF1FB /* priceIcon.png */; };
+		B88DF6011C118ACE009DF1FB /* priceIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F31C118ACE009DF1FB /* priceIcon@2x.png */; };
+		B88DF6021C118ACE009DF1FB /* showcarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F41C118ACE009DF1FB /* showcarIcon.png */; };
+		B88DF6031C118ACE009DF1FB /* showcarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF5F51C118ACE009DF1FB /* showcarIcon@2x.png */; };
+		B88DF60B1C118D09009DF1FB /* circe_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6051C118D09009DF1FB /* circe_1@2x.png */; };
+		B88DF60C1C118D09009DF1FB /* circe_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6061C118D09009DF1FB /* circe_2@2x.png */; };
+		B88DF60D1C118D09009DF1FB /* circe_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6071C118D09009DF1FB /* circe_3@2x.png */; };
+		B88DF60E1C118D09009DF1FB /* circe_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6081C118D09009DF1FB /* circe_4@2x.png */; };
+		B88DF60F1C118D09009DF1FB /* circe_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6091C118D09009DF1FB /* circe_5@2x.png */; };
+		B88DF6101C118D09009DF1FB /* cricle_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF60A1C118D09009DF1FB /* cricle_big@2x.png */; };
+		B88DF6121C11A14C009DF1FB /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = B88DF6111C11A14C009DF1FB /* 33.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B88DF5C61C11888A009DF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88DF5A41C118889009DF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88DF5AB1C118889009DF1FB;
+			remoteInfo = DYCircleView;
+		};
+		B88DF5D11C11888A009DF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88DF5A41C118889009DF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88DF5AB1C118889009DF1FB;
+			remoteInfo = DYCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B88DF5AC1C118889009DF1FB /* DYCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88DF5B01C118889009DF1FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B88DF5B21C118889009DF1FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B88DF5B31C118889009DF1FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B88DF5B51C118889009DF1FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B88DF5B61C118889009DF1FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B88DF5B91C118889009DF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B88DF5BB1C118889009DF1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88DF5BE1C118889009DF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B88DF5C01C118889009DF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88DF5C51C11888A009DF1FB /* DYCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88DF5C91C11888A009DF1FB /* DYCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYCircleViewTests.m; sourceTree = "<group>"; };
+		B88DF5CB1C11888A009DF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88DF5D01C11888A009DF1FB /* DYCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88DF5D41C11888A009DF1FB /* DYCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYCircleViewUITests.m; sourceTree = "<group>"; };
+		B88DF5D61C11888A009DF1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88DF5E21C1188B2009DF1FB /* DYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYImageView.h; sourceTree = "<group>"; };
+		B88DF5E31C1188B2009DF1FB /* DYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYImageView.m; sourceTree = "<group>"; };
+		B88DF5E51C1188D0009DF1FB /* DYCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYCircleView.h; sourceTree = "<group>"; };
+		B88DF5E61C1188D0009DF1FB /* DYCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYCircleView.m; sourceTree = "<group>"; };
+		B88DF5E81C118ACE009DF1FB /* biIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biIcon.png; sourceTree = "<group>"; };
+		B88DF5E91C118ACE009DF1FB /* biIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5EA1C118ACE009DF1FB /* customerInfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customerInfoIcon.png; sourceTree = "<group>"; };
+		B88DF5EB1C118ACE009DF1FB /* customerInfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "customerInfoIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5EC1C118ACE009DF1FB /* desireIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desireIcon.png; sourceTree = "<group>"; };
+		B88DF5ED1C118ACE009DF1FB /* desireIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desireIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5EE1C118ACE009DF1FB /* myInfoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myInfoIcon.png; sourceTree = "<group>"; };
+		B88DF5EF1C118ACE009DF1FB /* myInfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myInfoIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5F01C118ACE009DF1FB /* orderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderIcon.png; sourceTree = "<group>"; };
+		B88DF5F11C118ACE009DF1FB /* orderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orderIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5F21C118ACE009DF1FB /* priceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priceIcon.png; sourceTree = "<group>"; };
+		B88DF5F31C118ACE009DF1FB /* priceIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priceIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF5F41C118ACE009DF1FB /* showcarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showcarIcon.png; sourceTree = "<group>"; };
+		B88DF5F51C118ACE009DF1FB /* showcarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "showcarIcon@2x.png"; sourceTree = "<group>"; };
+		B88DF6051C118D09009DF1FB /* circe_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circe_1@2x.png"; sourceTree = "<group>"; };
+		B88DF6061C118D09009DF1FB /* circe_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circe_2@2x.png"; sourceTree = "<group>"; };
+		B88DF6071C118D09009DF1FB /* circe_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circe_3@2x.png"; sourceTree = "<group>"; };
+		B88DF6081C118D09009DF1FB /* circe_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circe_4@2x.png"; sourceTree = "<group>"; };
+		B88DF6091C118D09009DF1FB /* circe_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circe_5@2x.png"; sourceTree = "<group>"; };
+		B88DF60A1C118D09009DF1FB /* cricle_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cricle_big@2x.png"; sourceTree = "<group>"; };
+		B88DF6111C11A14C009DF1FB /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88DF5A91C118889009DF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5C21C11888A009DF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5CD1C11888A009DF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88DF5A31C118889009DF1FB = {
+			isa = PBXGroup;
+			children = (
+				B88DF5AE1C118889009DF1FB /* DYCircleView */,
+				B88DF5C81C11888A009DF1FB /* DYCircleViewTests */,
+				B88DF5D31C11888A009DF1FB /* DYCircleViewUITests */,
+				B88DF5AD1C118889009DF1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B88DF5AD1C118889009DF1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF5AC1C118889009DF1FB /* DYCircleView.app */,
+				B88DF5C51C11888A009DF1FB /* DYCircleViewTests.xctest */,
+				B88DF5D01C11888A009DF1FB /* DYCircleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88DF5AE1C118889009DF1FB /* DYCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF5B21C118889009DF1FB /* AppDelegate.h */,
+				B88DF5B31C118889009DF1FB /* AppDelegate.m */,
+				B88DF5B51C118889009DF1FB /* ViewController.h */,
+				B88DF5B61C118889009DF1FB /* ViewController.m */,
+				B88DF5E21C1188B2009DF1FB /* DYImageView.h */,
+				B88DF5E31C1188B2009DF1FB /* DYImageView.m */,
+				B88DF5E51C1188D0009DF1FB /* DYCircleView.h */,
+				B88DF5E61C1188D0009DF1FB /* DYCircleView.m */,
+				B88DF5B81C118889009DF1FB /* Main.storyboard */,
+				B88DF6041C118D09009DF1FB /* 体测指示切图补充 */,
+				B88DF5BB1C118889009DF1FB /* Assets.xcassets */,
+				B88DF5BD1C118889009DF1FB /* LaunchScreen.storyboard */,
+				B88DF5C01C118889009DF1FB /* Info.plist */,
+				B88DF5E81C118ACE009DF1FB /* biIcon.png */,
+				B88DF5E91C118ACE009DF1FB /* biIcon@2x.png */,
+				B88DF5EA1C118ACE009DF1FB /* customerInfoIcon.png */,
+				B88DF5EB1C118ACE009DF1FB /* customerInfoIcon@2x.png */,
+				B88DF5EC1C118ACE009DF1FB /* desireIcon.png */,
+				B88DF5ED1C118ACE009DF1FB /* desireIcon@2x.png */,
+				B88DF5EE1C118ACE009DF1FB /* myInfoIcon.png */,
+				B88DF5EF1C118ACE009DF1FB /* myInfoIcon@2x.png */,
+				B88DF5F01C118ACE009DF1FB /* orderIcon.png */,
+				B88DF5F11C118ACE009DF1FB /* orderIcon@2x.png */,
+				B88DF5F21C118ACE009DF1FB /* priceIcon.png */,
+				B88DF5F31C118ACE009DF1FB /* priceIcon@2x.png */,
+				B88DF5F41C118ACE009DF1FB /* showcarIcon.png */,
+				B88DF5F51C118ACE009DF1FB /* showcarIcon@2x.png */,
+				B88DF5AF1C118889009DF1FB /* Supporting Files */,
+			);
+			path = DYCircleView;
+			sourceTree = "<group>";
+		};
+		B88DF5AF1C118889009DF1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF5B01C118889009DF1FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88DF5C81C11888A009DF1FB /* DYCircleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF5C91C11888A009DF1FB /* DYCircleViewTests.m */,
+				B88DF5CB1C11888A009DF1FB /* Info.plist */,
+			);
+			path = DYCircleViewTests;
+			sourceTree = "<group>";
+		};
+		B88DF5D31C11888A009DF1FB /* DYCircleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF5D41C11888A009DF1FB /* DYCircleViewUITests.m */,
+				B88DF5D61C11888A009DF1FB /* Info.plist */,
+			);
+			path = DYCircleViewUITests;
+			sourceTree = "<group>";
+		};
+		B88DF6041C118D09009DF1FB /* 体测指示切图补充 */ = {
+			isa = PBXGroup;
+			children = (
+				B88DF6051C118D09009DF1FB /* circe_1@2x.png */,
+				B88DF6061C118D09009DF1FB /* circe_2@2x.png */,
+				B88DF6071C118D09009DF1FB /* circe_3@2x.png */,
+				B88DF6081C118D09009DF1FB /* circe_4@2x.png */,
+				B88DF6091C118D09009DF1FB /* circe_5@2x.png */,
+				B88DF60A1C118D09009DF1FB /* cricle_big@2x.png */,
+				B88DF6111C11A14C009DF1FB /* 33.png */,
+			);
+			path = "体测指示切图补充";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88DF5AB1C118889009DF1FB /* DYCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88DF5D91C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleView" */;
+			buildPhases = (
+				B88DF5A81C118889009DF1FB /* Sources */,
+				B88DF5A91C118889009DF1FB /* Frameworks */,
+				B88DF5AA1C118889009DF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYCircleView;
+			productName = DYCircleView;
+			productReference = B88DF5AC1C118889009DF1FB /* DYCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B88DF5C41C11888A009DF1FB /* DYCircleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88DF5DC1C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleViewTests" */;
+			buildPhases = (
+				B88DF5C11C11888A009DF1FB /* Sources */,
+				B88DF5C21C11888A009DF1FB /* Frameworks */,
+				B88DF5C31C11888A009DF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88DF5C71C11888A009DF1FB /* PBXTargetDependency */,
+			);
+			name = DYCircleViewTests;
+			productName = DYCircleViewTests;
+			productReference = B88DF5C51C11888A009DF1FB /* DYCircleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B88DF5CF1C11888A009DF1FB /* DYCircleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88DF5DF1C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleViewUITests" */;
+			buildPhases = (
+				B88DF5CC1C11888A009DF1FB /* Sources */,
+				B88DF5CD1C11888A009DF1FB /* Frameworks */,
+				B88DF5CE1C11888A009DF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88DF5D21C11888A009DF1FB /* PBXTargetDependency */,
+			);
+			name = DYCircleViewUITests;
+			productName = DYCircleViewUITests;
+			productReference = B88DF5D01C11888A009DF1FB /* DYCircleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88DF5A41C118889009DF1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = guoda;
+				TargetAttributes = {
+					B88DF5AB1C118889009DF1FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B88DF5C41C11888A009DF1FB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B88DF5AB1C118889009DF1FB;
+					};
+					B88DF5CF1C11888A009DF1FB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B88DF5AB1C118889009DF1FB;
+					};
+				};
+			};
+			buildConfigurationList = B88DF5A71C118889009DF1FB /* Build configuration list for PBXProject "DYCircleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B88DF5A31C118889009DF1FB;
+			productRefGroup = B88DF5AD1C118889009DF1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88DF5AB1C118889009DF1FB /* DYCircleView */,
+				B88DF5C41C11888A009DF1FB /* DYCircleViewTests */,
+				B88DF5CF1C11888A009DF1FB /* DYCircleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88DF5AA1C118889009DF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88DF6001C118ACE009DF1FB /* priceIcon.png in Resources */,
+				B88DF5FC1C118ACE009DF1FB /* myInfoIcon.png in Resources */,
+				B88DF6021C118ACE009DF1FB /* showcarIcon.png in Resources */,
+				B88DF60B1C118D09009DF1FB /* circe_1@2x.png in Resources */,
+				B88DF5FF1C118ACE009DF1FB /* orderIcon@2x.png in Resources */,
+				B88DF5F91C118ACE009DF1FB /* customerInfoIcon@2x.png in Resources */,
+				B88DF6011C118ACE009DF1FB /* priceIcon@2x.png in Resources */,
+				B88DF60F1C118D09009DF1FB /* circe_5@2x.png in Resources */,
+				B88DF60D1C118D09009DF1FB /* circe_3@2x.png in Resources */,
+				B88DF5BF1C118889009DF1FB /* LaunchScreen.storyboard in Resources */,
+				B88DF5FB1C118ACE009DF1FB /* desireIcon@2x.png in Resources */,
+				B88DF60C1C118D09009DF1FB /* circe_2@2x.png in Resources */,
+				B88DF5F71C118ACE009DF1FB /* biIcon@2x.png in Resources */,
+				B88DF60E1C118D09009DF1FB /* circe_4@2x.png in Resources */,
+				B88DF5F81C118ACE009DF1FB /* customerInfoIcon.png in Resources */,
+				B88DF6121C11A14C009DF1FB /* 33.png in Resources */,
+				B88DF6101C118D09009DF1FB /* cricle_big@2x.png in Resources */,
+				B88DF6031C118ACE009DF1FB /* showcarIcon@2x.png in Resources */,
+				B88DF5FD1C118ACE009DF1FB /* myInfoIcon@2x.png in Resources */,
+				B88DF5F61C118ACE009DF1FB /* biIcon.png in Resources */,
+				B88DF5BC1C118889009DF1FB /* Assets.xcassets in Resources */,
+				B88DF5FE1C118ACE009DF1FB /* orderIcon.png in Resources */,
+				B88DF5FA1C118ACE009DF1FB /* desireIcon.png in Resources */,
+				B88DF5BA1C118889009DF1FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5C31C11888A009DF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5CE1C11888A009DF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88DF5A81C118889009DF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88DF5B71C118889009DF1FB /* ViewController.m in Sources */,
+				B88DF5B41C118889009DF1FB /* AppDelegate.m in Sources */,
+				B88DF5B11C118889009DF1FB /* main.m in Sources */,
+				B88DF5E41C1188B2009DF1FB /* DYImageView.m in Sources */,
+				B88DF5E71C1188D0009DF1FB /* DYCircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5C11C11888A009DF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88DF5CA1C11888A009DF1FB /* DYCircleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88DF5CC1C11888A009DF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88DF5D51C11888A009DF1FB /* DYCircleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B88DF5C71C11888A009DF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88DF5AB1C118889009DF1FB /* DYCircleView */;
+			targetProxy = B88DF5C61C11888A009DF1FB /* PBXContainerItemProxy */;
+		};
+		B88DF5D21C11888A009DF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88DF5AB1C118889009DF1FB /* DYCircleView */;
+			targetProxy = B88DF5D11C11888A009DF1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B88DF5B81C118889009DF1FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88DF5B91C118889009DF1FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B88DF5BD1C118889009DF1FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88DF5BE1C118889009DF1FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B88DF5D71C11888A009DF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B88DF5D81C11888A009DF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88DF5DA1C11888A009DF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B88DF5DB1C11888A009DF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B88DF5DD1C11888A009DF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYCircleView.app/DYCircleView";
+			};
+			name = Debug;
+		};
+		B88DF5DE1C11888A009DF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYCircleView.app/DYCircleView";
+			};
+			name = Release;
+		};
+		B88DF5E01C11888A009DF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYCircleView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B88DF5E11C11888A009DF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.DYCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYCircleView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88DF5A71C118889009DF1FB /* Build configuration list for PBXProject "DYCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88DF5D71C11888A009DF1FB /* Debug */,
+				B88DF5D81C11888A009DF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88DF5D91C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88DF5DA1C11888A009DF1FB /* Debug */,
+				B88DF5DB1C11888A009DF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88DF5DC1C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88DF5DD1C11888A009DF1FB /* Debug */,
+				B88DF5DE1C11888A009DF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88DF5DF1C11888A009DF1FB /* Build configuration list for PBXNativeTarget "DYCircleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88DF5E01C11888A009DF1FB /* Debug */,
+				B88DF5E11C11888A009DF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B88DF5A41C118889009DF1FB /* Project object */;
+}
